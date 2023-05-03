@@ -1,0 +1,35 @@
+.order-summary-container {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-end;
+  width: 80%;
+  text-align: right;
+  margin-bottom: 100px;
+}
+
+.order-text {
+  color: #616e7c;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.order-total {
+  color: #171f46;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.item-count {
+  padding-right: 15px;
+  color: #616e7c;
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 180px;
+  padding: 5px;
+}
